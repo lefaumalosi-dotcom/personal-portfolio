@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Professional Cover Letter</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Malosi Lefau</h1>
+            <h2>Software Engineering Student</h2>
+
+            <p>
+                Email: lefaumalosi@gmail.com<br>
+                Phone: +1 (808) 743-9221<br>
+                Location: Hau'ula, HI
+            </p>
+
+            <nav>
+                <a href="resume.html">Resume</a>
+                <a href="cover-letter.html">Cover Letter</a>
+                <a href="career-goals.html">Career Goals</a>
+            </nav>
+        </header>
+        <hr>
+
+        <main>
+            <section>
+                <h2>Professional Cover Letter</h2>
+
+                <article>
+                    <p id="letter-date"></p>
+
+                    <p>
+                        Dear Hiring Manager,
+                    </p>
+
+                    <p>
+                        I am writing to express my interest in the Software Engineering Internship position at your company. As a motivated software engineering student at <strong>Western Governors University</strong>, I am eager to contribute to your team and gain valuable experience in the field.
+                    </p>
+
+                    <p>
+                        Through my coursework, I have developed a strong foundation in programming languages such as Java, Python, HTML, and CSS. I am particularly interested in web development and have been actively working on personal projects to enhance my skills.
+                    </p>
+                    <p>
+                        My background in facilities maintenance and construction has also equipped me with valuable teamwork, communication, and problem-solving abilities that I believe will be beneficial in a collaborative work environment.
+                    </p>
+
+                    <p>
+                        I am particularly interested in opportunities that allow me to contribute to meaningful technology projects while continuing to grow as a software engineer. I am committed to learning new technologies and developing <em>reliable software solutions.</em>
+                    </p>
+
+                    <p>Sincerely,<br>
+                        Malosi Lefau
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Malosi Lefau | Professional Portfolio</p>
+        </footer>
+        <script>
+            const today = new Date();
+
+            document.getElementById("letter-date").textContent =
+                today.toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric"
+                });
+        </script>
+    </body>
+</html>

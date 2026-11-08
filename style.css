@@ -1,0 +1,135 @@
+
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+    font: 16px Arial, sans-serif;
+    color: #263238;
+    background-color: #f2f5f8;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #16324f;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Descendant selector */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Pseudo-class selector */
+nav a:hover {
+    color: #f4c95d;
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #d5dce3;
+}
+
+/* Class selector */
+.highlight {
+    background-color: #fff3cd;
+    padding: 10px;
+    border-left: 4px solid #e0a800;
+}
+
+/* ID selector */
+#current-date {
+    font-weight: bold;
+    color: #16324f;
+    margin-top: 15px;
+}
+
+/* Heading styling */
+h1, h2, h3 {
+    color: #16324f;
+}
+
+/* Preserve white header text */
+header h1, header h2 {
+    color: white;
+}
+
+/* Paragraph styling */
+article p {
+    line-height: 1.6;
+    margin: 12px 0;
+}
+
+/* Font style property */
+em {
+    font-style: italic;
+}
+
+/* Lists */
+ul {
+    list-style: square;
+    padding-left: 25px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Images and media */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+audio {
+    margin: 15px 0;
+}
+
+/* Form styling */
+input, textarea, select {
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #aab7c4;
+}
+
+button {
+    background-color: #16324f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #16324f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
